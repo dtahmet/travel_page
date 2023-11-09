@@ -1,0 +1,16 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+#page-logo a /* extradan bir bölgeyi adreslemede kullanılıyor.*/ {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif /*google dan indirdik*/;
+    color: rgb(245, 231, 160);
+    font-size: 50px;
+    text-decoration: none;
+    /* altyazıları silmeye yarıyor */
+    text-transform: uppercase /*bu da bütün harflere özel düzenleme yapmanı sağlıyor*/;
+    text-shadow: 4px 4px 5px rgb(0,0,0)/*gölgelemede
+    brinci sağdan sola, ikincisi yukardan aşağıya, üçüncüsü blurlerme, 4 renk*/
+}
