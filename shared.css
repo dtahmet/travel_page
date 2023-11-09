@@ -3,6 +3,18 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+    
+}
+
+ul a {
+    text-decoration: none;
+}
+
 #page-logo a /* extradan bir bölgeyi adreslemede kullanılıyor.*/ {
     padding: 10px;
     font-family: "Oleo Script", sans-serif /*google dan indirdik*/;
