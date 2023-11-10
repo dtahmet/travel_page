@@ -4,3 +4,14 @@
     background-position: center; /* resim eklendikten sonra resmin ortası geliyor buraya*/
     background-size: cover; /*büyük resmi sığdırıyor */
 }
+
+#hero-content{
+    width: 900px;
+    background-color: rgb(51, 47, 57, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67); /*yine aynı mantık*/
+    border-radius: 8px; /*hatırlıyorum ama hatırlayamazsam diye yuvarlama*/
+    text-align: center;
+    padding: 50px 0;
+
+
+}
