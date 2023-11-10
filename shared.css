@@ -14,6 +14,31 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
+    position: absolute;/*ya bu absolute da  anladığım kadarıyla bağımsız olarak ön layer a alıyor segmenti
+    ancak fixed dediğin zaman yine bir layer öne alıyor ama layer hep sayfanın üzerinde kalıyor.*/
+    width: 100%; /* bu da çok iyi bir yöntem ancak bir şey daha ilave etmek gerekiyor*/
+    top: 0;
+    left: 0; /*en son bunları koydu garanti olsun diye tam başlangıç nokrası almak için*/
+    box-sizing: border-box;/*bu noktada da kutuyu sınırlandırma önemli...
+    Content box dediğimiz zaman main i yüzde yüz olarak alıyor.*/
+}
+
+header li a {
+
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(255, 231, 0);
+    text-shadow: 1px 1px 2px rgb(0,0,0,0.9);
+    /*background-color: rgb(245, 121, 160, 70%);
+    border-radius: 5px; istersen yapabilirsin*/
+    border-radius: 6px;
+}
+
+header li a:hover {
+
+    color:rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+    
 }
 
 #page-logo a /* extradan bir bölgeyi adreslemede kullanılıyor.*/ {
