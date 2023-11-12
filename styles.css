@@ -49,6 +49,22 @@
     background-color: rgb(255, 220, 1);
 
 }
+
+#highlights {
+
+    padding: 24px; /*çakışma olmasın diye padding ekletti
+    ana bölgeye. Bu herif takıntılı biraz*/
+
+    /*background-color: rgb(227, 255, 252); bu devirde
+    bunlar basit kalır diyor. linear gradient daha 
+    güzel olur diyor*/
+
+    background: linear-gradient(45deg, 
+    rgb(227, 255, 253),
+    rgb(70, 165, 135))
+
+
+}
 #destinations {
     display: flex;
     width: 90%;
