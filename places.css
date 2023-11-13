@@ -16,8 +16,16 @@ header {
 
 main ul{
 
-    width: 800px;
-    margin:0 auto
+    width: 1200px;
+    margin:0 auto;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+li:nth-child(3){
+    grid-column: 1/span 2;
 }
 
 main li{
@@ -27,8 +35,10 @@ main li{
     border-radius: 6px;
     overflow: hidden; /*Hakikaten ilginç. Burada foto border
     radiustan etkilenmiyor. onu dahil etmek için yapılıyor bu*/
-    
+    width: 100%;
 }
+
+
 
 main li img{
     width: 300px;
