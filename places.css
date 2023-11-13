@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(
+        30deg,
+        rgb(77,77,77),
+        rgb(58,58,58)
+    );
+    color: rgb(68, 68, 68)
+}
+
+
+
+header {
+    position: static; /*Bu main in header a girmemesini sağlıyor*/
+}
+
+
+main ul{
+
+    width: 800px;
+    margin:0 auto
+}
+
+main li{
+    display: flex;
+    background-color: white ;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden; /*Hakikaten ilginç. Burada foto border
+    radiustan etkilenmiyor. onu dahil etmek için yapılıyor bu*/
+    
+}
+
+main li img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+
+
+}
+
+.item-content{
+    padding: 24px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.actions{
+    text-align: right ;
+
+}
+
+.actions a{
+    padding: 6px;
+    font-weight: 800;
+    color:rgb(20, 202, 202);
+    border-radius: 6px;
+}
+
+.actions a:hover{
+    background-color:rgb(224, 234, 234);
+    
+}
